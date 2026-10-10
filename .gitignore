@@ -1,0 +1,12 @@
+node_modules/
+dist/
+data/
+.cache/
+.env*
+qa/downloads/
+
+.DS_Store
+*.log
+qa/upload-create-receipt.json
+qa/browser-download-verification.json
+qa/research-live-receipt.json

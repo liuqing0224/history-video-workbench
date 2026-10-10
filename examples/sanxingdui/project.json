@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "id": "sanxingdui",
+  "title": "三星堆：古蜀的回声",
+  "topic": "三星堆",
+  "type": "site",
+  "focus": "沿着纵目面具、鱼鸟纹与神树，想象古蜀世界；史实与神话关联保持审慎。",
+  "officialUrls": [
+    "https://www.sxd.cn/web/"
+  ],
+  "referenceImages": [],
+  "researchHash": "e04fc19b26fc2356dc3fe81e08100d32fffb4ac602d5c9f7b89b61c66aecd47e",
+  "createdAt": "2026-10-10T07:55:25.138412+00:00",
+  "updatedAt": "2026-10-10T08:13:25.916Z",
+  "revision": 0,
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "三星堆博物馆",
+      "url": "https://www.sxd.cn/web/",
+      "summary": "金杖及其鱼鸟纹介绍。"
+    },
+    {
+      "id": "source-2",
+      "title": "三星堆考古与中国古史传承体系",
+      "url": "https://www.cssn.cn/lsx/lsx_kgx/202303/t20230302_5600475.shtml",
+      "summary": "古蜀传承、文献传说、纵目解释和神木比较。"
+    },
+    {
+      "id": "source-3",
+      "title": "三星堆主题知识服务",
+      "url": "https://pckgs.sxd.cn/",
+      "summary": "考古和研究文献入口，部分作者观点不代表博物馆学术立场。"
+    },
+    {
+      "id": "source-4",
+      "title": "三星堆祭祀区考古成果",
+      "url": "https://www.cssn.cn/kgxc/kgxc_kgxl/202209/t20220930_5545311.shtml",
+      "summary": "遗存与堆积背景。"
+    },
+    {
+      "id": "source-5",
+      "title": "青铜器制作研究",
+      "url": "https://kaogu.cssn.cn/xwzx/kgdt/202201/t20220124_5946197.shtml",
+      "summary": "分铸与连接技术背景。"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-1",
+      "text": "蚕丛“其目纵”属于文献传说，不能确证纵目面具就是蚕丛。",
+      "kind": "legend",
+      "sourceIds": [
+        "source-2"
+      ]
+    },
+    {
+      "id": "claim-2",
+      "text": "青铜神树有三层枝与九鸟；与扶桑、建木的比较属于解释，不能画上等号。",
+      "kind": "fact",
+      "sourceIds": [
+        "source-1",
+        "source-2"
+      ]
+    },
+    {
+      "id": "claim-3",
+      "text": "本片祭礼动作、丰收祈愿、人物和建筑布局为艺术想象。",
+      "kind": "imagination",
+      "sourceIds": []
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-1",
+      "title": "古城黎明",
+      "narration": "三千多年前，成都平原上，一座古蜀城迎来黎明。这里是三星堆。它的王是谁？传说留下了名字。",
+      "prompt": "Use case: historical-scene\nAsset type: full-screen keyframe for a Chinese history documentary film, 16:9 landscape.\nPrimary request: A richly detailed cinematic reconstruction of the ancient Shu settlement at Sanxingdui, Chengdu plain, approximately late second millennium BCE, dawn seen across the river from a slightly elevated natural bank.\nScene/backdrop: Humid Sichuan plain, broad slow river, modest rammed-earth enclosure, timber and earth dwellings with straw-thatched roofs, scattered agricultural plots and distant wooded hills. A credible Bronze Age settlement rather than an imperial capital. A few tiny people in plain woven clothing on paths; no invented protagonist.\nStyle/medium: Photorealistic historical film production design, tactile handbuilt architecture, intricate natural textures, real atmospheric perspective, subtle cinematic grain. Carefully composed depth, foreground reeds, midground river and village, layered mist behind.\nLighting/mood: Gentle early morning gold through cool gray-green mist; legible midtones and nuanced shadows.\nMaterials/textures: Damp soil, irregular plaster, wooden beams, straw, worn woven fabric, water reflections.\nConstraints: An artistic reconstruction guided by archaeology, not a literal surveyed site plan. No pagodas, palace megastructures, glazed tiled roofs, Han/Tang architecture, monumental stone temples, alien imagery, fantasy armor or modern objects. No typography, no captions, no borders, no collage, no watermark. Preserve visual interest above the bottom 12 percent reserved for later subtitles.\n竖屏重构要求：9:16，主体完整，场景为艺术想象，无字幕或文字。",
+      "kind": "imagination",
+      "sourceIds": [],
+      "duration": 9.85,
+      "image": "assets/images/sanxingdui-city-final.jpg",
+      "imageHash": "590aa3409939f986f2a986b9694834069cfaa26843281f7f0af883b28b8a118c",
+      "imageVersions": [],
+      "audioHash": "983dea196041e9c677ca72ce42b4aa243f7ded4fd0c95bbf0f50c09851a92c5e",
+      "cues": [
+        {
+          "text": "三千多年前，成都平原上，一座古蜀城迎来黎明。",
+          "audio": "assets/audio/science-segment-1-1.mp3",
+          "duration": 4.754286
+        },
+        {
+          "text": "这里是三星堆。它的王是谁？传说留下了名字。",
+          "audio": "assets/audio/science-segment-1-2.mp3",
+          "duration": 4.205714
+        }
+      ],
+      "fit": "cover",
+      "focusX": 50,
+      "focusY": 50,
+      "zoom": 1.045,
+      "imageSize": {
+        "width": 1672,
+        "height": 941
+      }
+    },
+    {
+      "id": "shot-2",
+      "title": "蚕丛与纵目面具",
+      "narration": "古籍说，蜀王蚕丛，其目纵。这张面具，会是他吗？",
+      "prompt": "Use case: historical-scene\nAsset type: 9:16 full-screen keyframe for a historical documentary, no text.\nStyle/medium: Photorealistic historical cinema production design, highly detailed textures, atmospheric depth, restrained cinematic grain, believable scale, clear readable midtones. Consistent late Bronze Age Sichuan setting: earthen surfaces, timber and thatch, plain muted woven linen-like clothing, warm fresh bronze and cool gray-green atmosphere. NOT cartoon, NOT vector, NOT glossy game art.\nConstraints: Historically cautious artistic reconstruction of Sanxingdui and ancient Shu, late second millennium BCE. No text, no watermark, no collage, no border, no modern objects, no aliens, no European gods, no Han/Tang tiled palaces, no armor fantasy. Do not use the four-bird circular Jinsha gold ornament. Fresh bronze is copper-gold with subtle casting irregularities, not archaeological green patina. Main detail above bottom 12 percent reserved for later subtitles.\n\nPrimary request: Cinematic medium close-up of a Sanxingdui-style bronze protruding-eye mask resting vertically in a dark timber-and-earth ritual setting, its face angled slightly so its projecting cylindrical pupils are unmistakable.\nSubject: Broad angular bronze face, enormous outward-spreading angular ears, long raised brows, two eyes whose cylindrical eyeballs project substantially from the eye sockets, large straight ridge nose, wide thin mouth with subtly uplifted ends. The silhouette is recognizably the famous Sanxingdui protruding-eye mask, NOT a generic human portrait, Egyptian mask or smooth theatrical mask. Keep ear-to-ear width much larger than face height.\nComposition/framing: Artifact fills the portrait frame with both ears fully visible; camera just below eye level, a little to one side, soft shallow depth of field. Do not include a named king or wearer.\nLighting/mood: Raking warm side light revealing hammered/cast metal texture, cool smoky shadow, quiet solemnity. Association with the legendary Cancong is narrative conjecture, not physical identity.\n竖屏重构要求：9:16，主体完整，场景为艺术想象，无字幕或文字。\n竖屏构图重点：面具置于画面中央，双耳完整，面具宽度占画面约80%，上方留暗色烟雾与木构背景，下方留旁白安全区。禁止文字。",
+      "kind": "legend",
+      "sourceIds": [
+        "source-2"
+      ],
+      "duration": 5.42,
+      "image": "assets/images/shot-2-1791619625258.png",
+      "imageHash": "fd6cf9bc91ac070459b365d84ddb2414a2de57c3cec9e262cd693f65129550dc",
+      "imageVersions": [],
+      "audioHash": "0319c6d93b82da74224a376e06b115284654acd446062df4c55676171e9c652a",
+      "cues": [
+        {
+          "text": "古籍说，蜀王蚕丛，其目纵。",
+          "audio": "assets/audio/shot-2-1791619789608-0.mp3",
+          "duration": 3.004082
+        },
+        {
+          "text": "这张面具，会是他吗？",
+          "audio": "assets/audio/shot-2-1791619790505-1.mp3",
+          "duration": 1.959184
+        }
+      ],
+      "fit": "cover",
+      "focusX": 50,
+      "focusY": 50,
+      "zoom": 1.045,
+      "imageSize": {
+        "width": 941,
+        "height": 1672
+      }
+    },
+    {
+      "id": "shot-3",
+      "title": "鱼鸟与先王传说",
+      "narration": "答案还未确定。蚕丛之后，传说还有柏灌与鱼凫。金杖上的鱼鸟，让我们想起那个临水而生的世界。",
+      "prompt": "Use case: historical-scene\nAsset type: 16:9 full-screen keyframe for a historical documentary, no text.\nStyle/medium: Photorealistic historical cinema production design, highly detailed textures, atmospheric depth, restrained cinematic grain, believable scale, clear readable midtones. Consistent late Bronze Age Sichuan setting: earthen surfaces, timber and thatch, plain muted woven linen-like clothing, warm fresh bronze and cool gray-green atmosphere. NOT cartoon, NOT vector, NOT glossy game art.\nConstraints: Historically cautious artistic reconstruction of Sanxingdui and ancient Shu, late second millennium BCE. No text, no watermark, no collage, no border, no modern objects, no aliens, no European gods, no Han/Tang tiled palaces, no armor fantasy. Do not use the four-bird circular Jinsha gold ornament. Fresh bronze is copper-gold with subtle casting irregularities, not archaeological green patina. Main detail above bottom 12 percent reserved for later subtitles.\n\nPrimary request: A richly observed ancient Shu riverside at Sanxingdui, mist beginning to lift, a river bird taking flight just above reeds, fishermen with simple woven baskets small in background, with a beautifully worked gold-covered wooden staff in close foreground leaning against a modest earthen wall.\nSubject: A slender gold-sheathed staff, NOT a scepter with jeweled head. Faint incised repeated motifs of fish, birds and arrow-like strokes near its upper shaft. The natural bird is a plausible water bird with ordinary anatomy, not a phoenix. Staff is an artistic simplified motif reference, not an asserted portrait of Yufu.\nComposition/framing: River panorama, natural bird between foreground staff and distant earthen settlement, three-dimensional depth, no infographic insert.\nLighting/mood: Warm pale morning sun through damp haze, luminous water reflections.\n竖屏重构要求：9:16，主体完整，场景为艺术想象，无字幕或文字。",
+      "kind": "legend",
+      "sourceIds": [
+        "source-2"
+      ],
+      "duration": 9.41,
+      "image": "assets/images/sanxingdui-river-final.jpg",
+      "imageHash": "19b8aaf9a89a05b5bb3aee5cd5d2d54930857dbfccc80acc29fb1d59f75c897a",
+      "imageVersions": [],
+      "audioHash": "def83e9219c957fe53c97cf9f059a65e2e5d898e1518e3966b0de635dc0aea4f",
+      "cues": [
+        {
+          "text": "答案还未确定。蚕丛之后，传说还有柏灌与鱼凫。",
+          "audio": "assets/audio/science-segment-1-4.mp3",
+          "duration": 4.754286
+        },
+        {
+          "text": "金杖上的鱼鸟，让我们想起那个临水而生的世界。",
+          "audio": "assets/audio/science-segment-1-5.mp3",
+          "duration": 3.761633
+        }
+      ],
+      "fit": "contain",
+      "focusX": 50,
+      "focusY": 50,
+      "zoom": 1.045,
+      "imageSize": {
+        "width": 1672,
+        "height": 941
+      }
+    },
+    {
+      "id": "shot-4",
+      "title": "青铜神树",
+      "narration": "古蜀人铸起青铜神树。三层枝头，站着九只鸟。若顺着枝干仰望，你会想到怎样的天空？",
+      "prompt": "Use case: historical-scene\nAsset type: 16:9 full-screen keyframe for a historical documentary, no text.\nStyle/medium: Photorealistic historical cinema production design, highly detailed textures, atmospheric depth, restrained cinematic grain, believable scale, clear readable midtones. Consistent late Bronze Age Sichuan setting: earthen surfaces, timber and thatch, plain muted woven linen-like clothing, warm fresh bronze and cool gray-green atmosphere. NOT cartoon, NOT vector, NOT glossy game art.\nConstraints: Historically cautious artistic reconstruction of Sanxingdui and ancient Shu, late second millennium BCE. No text, no watermark, no collage, no border, no modern objects, no aliens, no European gods, no Han/Tang tiled palaces, no armor fantasy. Do not use the four-bird circular Jinsha gold ornament. Fresh bronze is copper-gold with subtle casting irregularities, not archaeological green patina. Main detail above bottom 12 percent reserved for later subtitles.\n\nPrimary request: A cinematic low-angle view of a freestanding Sanxingdui No.1-inspired bronze sacred tree in an outdoor earthen ritual space at twilight. This is a crafted bronze artifact about four meters tall, not an enormous living fantasy tree.\nSubject: One slender upright bronze trunk, exactly THREE clearly separated tiers of branches, THREE branches per tier, NINE small cast bronze birds in total perched on the upward-curving branch tips. A slender stylized cast dragon with sinuous body descends beside the trunk. Root/base rises from a low mountain-shaped bronze support. Show branches extending in different depth directions, 3D instead of a flat symmetric drawing. No leaves like a normal tree. Distinct birds and fruits, legible sculpture structure.\nComposition/framing: Full sculpture and base in frame, a few plain-clothed observers small and secondary for scale. Sparse earthly setting; no fantasy temple. Bronze object must remain visually dominant.\nLighting/mood: Detailed copper-gold highlights, twilight gray-blue sky, one soft luminous solar disc far behind. Reverent but physically believable.\n竖屏重构要求：9:16，主体完整，场景为艺术想象，无字幕或文字。",
+      "kind": "fact",
+      "sourceIds": [
+        "source-1",
+        "source-2"
+      ],
+      "duration": 9.17,
+      "image": "assets/images/sanxingdui-tree-final.jpg",
+      "imageHash": "e41e56f092b67166808f667f1b3f99e916a91bf0a1b8468e8c97854d1f83fb90",
+      "imageVersions": [],
+      "audioHash": "b0f9981fe3f0715c778ce2479a3d7046b693bb2005549f4edaf0f94294078094",
+      "cues": [
+        {
+          "text": "古蜀人铸起青铜神树。三层枝头，站着九只鸟。",
+          "audio": "assets/audio/science-segment-2-1.mp3",
+          "duration": 4.649796
+        },
+        {
+          "text": "若顺着枝干仰望，你会想到怎样的天空？",
+          "audio": "assets/audio/science-segment-2-2.mp3",
+          "duration": 3.63102
+        }
+      ],
+      "fit": "cover",
+      "focusX": 50,
+      "focusY": 50,
+      "zoom": 1.045,
+      "imageSize": {
+        "width": 1672,
+        "height": 941
+      }
+    },
+    {
+      "id": "shot-5",
+      "title": "扶桑与建木",
+      "narration": "神话里的扶桑，有太阳与神鸟；建木，连接天地。有人借这些故事理解神树，但两者不能画上等号。",
+      "prompt": "Use case: historical-scene\nAsset type: 16:9 full-screen keyframe for a historical documentary, no text.\nStyle/medium: Photorealistic historical cinema production design, highly detailed textures, atmospheric depth, restrained cinematic grain, believable scale, clear readable midtones. Consistent late Bronze Age Sichuan setting: earthen surfaces, timber and thatch, plain muted woven linen-like clothing, warm fresh bronze and cool gray-green atmosphere. NOT cartoon, NOT vector, NOT glossy game art.\nConstraints: Historically cautious artistic reconstruction of Sanxingdui and ancient Shu, late second millennium BCE. No text, no watermark, no collage, no border, no modern objects, no aliens, no European gods, no Han/Tang tiled palaces, no armor fantasy. Do not use the four-bird circular Jinsha gold ornament. Fresh bronze is copper-gold with subtle casting irregularities, not archaeological green patina. Main detail above bottom 12 percent reserved for later subtitles.\n\nPrimary request: A poetic cinematic illustration in near-photoreal material detail visualizing ancient Chinese sacred-tree myths as a distinctly imaginative world, not a factual archaeological reconstruction.\nScene/backdrop: A immense tree silhouette rising through cloud layers between earth and sky, its branching form gently echoing the three-level Sanxingdui tree without portraying it as a real museum object here. Bronze-colored birds fly upward among delicate golden rays toward ONE radiant sun, mountains and river dimly visible below. The sky is richly atmospheric, not a black space scene.\nStyle/medium: Epic restrained historical film matte painting, finely crafted clouds and light, contemplative rather than spectacle, luminous gray-green and copper-gold colors.\nConstraints: No palace in clouds, no winged humans, no western angels, no literal named deities, no magic laser beams. This is a visual metaphor for Fusang/Jianmu mythology, not proof of the bronze tree identity. No extra suns.\n竖屏重构要求：9:16，主体完整，场景为艺术想象，无字幕或文字。",
+      "kind": "legend",
+      "sourceIds": [
+        "source-2"
+      ],
+      "duration": 10.03,
+      "image": "assets/images/sanxingdui-myth-sky-final.jpg",
+      "imageHash": "17d2f77288a47a800378b51464b1609497d9404796277459922d55ada3256b53",
+      "imageVersions": [],
+      "audioHash": "e33c37a34b2f7593428aeabbaf1b13c87d37f26e5a7fc87dcd1c43b813195e7d",
+      "cues": [
+        {
+          "text": "神话里的扶桑，有太阳与神鸟；建木，连接天地。",
+          "audio": "assets/audio/science-segment-2-3.mp3",
+          "duration": 4.702041
+        },
+        {
+          "text": "有人借这些故事理解神树，但两者不能画上等号。",
+          "audio": "assets/audio/science-segment-2-4.mp3",
+          "duration": 4.440816
+        }
+      ],
+      "fit": "cover",
+      "focusX": 50,
+      "focusY": 50,
+      "zoom": 1.045,
+      "imageSize": {
+        "width": 1672,
+        "height": 941
+      }
+    },
+    {
+      "id": "shot-6",
+      "title": "飞向天空的愿望",
+      "narration": "在本片的想象里，鸟带着人的愿望，飞向天际。",
+      "prompt": "Use case: historical-scene\nAsset type: 16:9 full-screen keyframe for a historical documentary, no text.\nStyle/medium: Photorealistic historical cinema production design, highly detailed textures, atmospheric depth, restrained cinematic grain, believable scale, clear readable midtones. Consistent late Bronze Age Sichuan setting: earthen surfaces, timber and thatch, plain muted woven linen-like clothing, warm fresh bronze and cool gray-green atmosphere. NOT cartoon, NOT vector, NOT glossy game art.\nConstraints: Historically cautious artistic reconstruction of Sanxingdui and ancient Shu, late second millennium BCE. No text, no watermark, no collage, no border, no modern objects, no aliens, no European gods, no Han/Tang tiled palaces, no armor fantasy. Do not use the four-bird circular Jinsha gold ornament. Fresh bronze is copper-gold with subtle casting irregularities, not archaeological green patina. Main detail above bottom 12 percent reserved for later subtitles.\n\nPrimary request: A cinematic low-angle view of a freestanding Sanxingdui No.1-inspired bronze sacred tree in an outdoor earthen ritual space at twilight. This is a crafted bronze artifact about four meters tall, not an enormous living fantasy tree.\nSubject: One slender upright bronze trunk, exactly THREE clearly separated tiers of branches, THREE branches per tier, NINE small cast bronze birds in total perched on the upward-curving branch tips. A slender stylized cast dragon with sinuous body descends beside the trunk. Root/base rises from a low mountain-shaped bronze support. Show branches extending in different depth directions, 3D instead of a flat symmetric drawing. No leaves like a normal tree. Distinct birds and fruits, legible sculpture structure.\nComposition/framing: Full sculpture and base in frame, a few plain-clothed observers small and secondary for scale. Sparse earthly setting; no fantasy temple. Bronze object must remain visually dominant.\nLighting/mood: Detailed copper-gold highlights, twilight gray-blue sky, one soft luminous solar disc far behind. Reverent but physically believable.\n竖屏重构要求：9:16，主体完整，场景为艺术想象，无字幕或文字。",
+      "kind": "imagination",
+      "sourceIds": [],
+      "duration": 4.43,
+      "image": "assets/images/sanxingdui-tree-final.jpg",
+      "imageHash": "e41e56f092b67166808f667f1b3f99e916a91bf0a1b8468e8c97854d1f83fb90",
+      "imageVersions": [],
+      "audioHash": "f333b7e627c3ca4c6c54feadefa802d1bb05521b5749ff06778b8e8a1e5c99cd",
+      "cues": [
+        {
+          "text": "在本片的想象里，鸟带着人的愿望，飞向天际。",
+          "audio": "assets/audio/science-segment-2-5.mp3",
+          "duration": 3.761633
+        }
+      ],
+      "fit": "cover",
+      "focusX": 50,
+      "focusY": 50,
+      "zoom": 1.045,
+      "imageSize": {
+        "width": 1672,
+        "height": 941
+      }
+    },
+    {
+      "id": "shot-7",
+      "title": "炉火制器",
+      "narration": "回到人间，炉火亮起，工匠把想象铸成青铜。",
+      "prompt": "Use case: historical-scene\nAsset type: 16:9 full-screen keyframe for a historical documentary, no text.\nStyle/medium: Photorealistic historical cinema production design, highly detailed textures, atmospheric depth, restrained cinematic grain, believable scale, clear readable midtones. Consistent late Bronze Age Sichuan setting: earthen surfaces, timber and thatch, plain muted woven linen-like clothing, warm fresh bronze and cool gray-green atmosphere. NOT cartoon, NOT vector, NOT glossy game art.\nConstraints: Historically cautious artistic reconstruction of Sanxingdui and ancient Shu, late second millennium BCE. No text, no watermark, no collage, no border, no modern objects, no aliens, no European gods, no Han/Tang tiled palaces, no armor fantasy. Do not use the four-bird circular Jinsha gold ornament. Fresh bronze is copper-gold with subtle casting irregularities, not archaeological green patina. Main detail above bottom 12 percent reserved for later subtitles.\n\nPrimary request: An intimate cinematic view inside a Bronze Age ancient Shu bronze-casting workshop, craftspeople carefully preparing earthen piece molds near a small furnace.\nSubject: Two adult workers with practical plain woven garments and tied hair, credible skin and hands, focused on clay mold pieces on a timber bench. A glow from a small primitive furnace, crucible and simple wooden or stone tools; an unfinished broad bronze mask resting farther back. No barehanded contact with molten metal. No modern pouring ladle, steel workshop equipment or machinery.\nComposition/framing: Close enough to see hands working on clay textures, three-quarter viewpoint; foreground mold pieces, midground working hands, background forge softened by smoke. Natural physical craft, not an instructional diagram.\nLighting/mood: Amber furnace glow and cool daylight through a small opening; realistic dust and smoke, tactile imperfections.\n竖屏重构要求：9:16，主体完整，场景为艺术想象，无字幕或文字。",
+      "kind": "imagination",
+      "sourceIds": [],
+      "duration": 5.29,
+      "image": "assets/images/sanxingdui-workshop-final.jpg",
+      "imageHash": "b9b4676d96985b311ef62f5091d219c9723dc3ff41a6251eaa72b93ac98e495d",
+      "imageVersions": [],
+      "audioHash": "c7d05bb72c2b7f323248cbb5c3a13fcdb7999ee2d17b2e6114c8010385978a11",
+      "cues": [
+        {
+          "text": "回到人间，炉火亮起，工匠把想象铸成青铜。",
+          "audio": "assets/audio/science-segment-3-1.mp3",
+          "duration": 4.623673
+        }
+      ],
+      "fit": "cover",
+      "focusX": 50,
+      "focusY": 50,
+      "zoom": 1.045,
+      "imageSize": {
+        "width": 1672,
+        "height": 941
+      }
+    },
+    {
+      "id": "shot-8",
+      "title": "走向祭场",
+      "narration": "面具、玉璋与象牙，随队伍走向祭场。",
+      "prompt": "Use case: historical-scene\nAsset type: 16:9 full-screen keyframe for a historical documentary, no text.\nStyle/medium: Photorealistic historical cinema production design, highly detailed textures, atmospheric depth, restrained cinematic grain, believable scale, clear readable midtones. Consistent late Bronze Age Sichuan setting: earthen surfaces, timber and thatch, plain muted woven linen-like clothing, warm fresh bronze and cool gray-green atmosphere. NOT cartoon, NOT vector, NOT glossy game art.\nConstraints: Historically cautious artistic reconstruction of Sanxingdui and ancient Shu, late second millennium BCE. No text, no watermark, no collage, no border, no modern objects, no aliens, no European gods, no Han/Tang tiled palaces, no armor fantasy. Do not use the four-bird circular Jinsha gold ornament. Fresh bronze is copper-gold with subtle casting irregularities, not archaeological green patina. Main detail above bottom 12 percent reserved for later subtitles.\n\nPrimary request: A quiet solemn ancient Shu procession carrying ritual objects toward an earthen ceremonial area near Sanxingdui, cinematic wide view at late afternoon.\nSubject: Several adult participants in plain muted woven clothing, one carrying a recognizable broad Sanxingdui bronze mask with angular large ears, another a long green stone zhang blade held securely, others carrying long gently curved ivory tusks with realistic weight distributed among two people. Modest tied hair and simple cloth belts. Calm natural body language, no choreographed imperial guards.\nScene/backdrop: Rammed-earth ground, timber-and-thatch buildings, sparse smoke, wooded horizon, small prepared earthen area, no palace staircase or colossal pyramids.\nComposition/framing: Full human figures at believable scale, diagonal depth and foreground soil textures, multiple distinct objects, clearly not a crowd of cloned faces.\nLighting/mood: Side-lit soft gold through cool mist, restrained ritual atmosphere. People and arrangement are artistic conjecture.\n竖屏重构要求：9:16，主体完整，场景为艺术想象，无字幕或文字。",
+      "kind": "imagination",
+      "sourceIds": [],
+      "duration": 4.38,
+      "image": "assets/images/sanxingdui-procession-final.jpg",
+      "imageHash": "688036bec8e445478cc0ed0e2178d96fb069bd7a3e3794e166a9a01fdc27db3e",
+      "imageVersions": [],
+      "audioHash": "5432fc69e4a7bde4630074549b0ff9061d9425fd570dab669e635622639f93b3",
+      "cues": [
+        {
+          "text": "面具、玉璋与象牙，随队伍走向祭场。",
+          "audio": "assets/audio/science-segment-3-2.mp3",
+          "duration": 3.709388
+        }
+      ],
+      "fit": "cover",
+      "focusX": 50,
+      "focusY": 50,
+      "zoom": 1.045,
+      "imageSize": {
+        "width": 1672,
+        "height": 941
+      }
+    },
+    {
+      "id": "shot-9",
+      "title": "祈愿与未知",
+      "narration": "我们想象人们举起礼器，把对丰收的盼望托付天地。真正向谁祈求，怎样祈求？这些细节仍是谜。",
+      "prompt": "Use case: historical-scene\nAsset type: 16:9 full-screen keyframe for a historical documentary, no text.\nStyle/medium: Photorealistic historical cinema production design, highly detailed textures, atmospheric depth, restrained cinematic grain, believable scale, clear readable midtones. Consistent late Bronze Age Sichuan setting: earthen surfaces, timber and thatch, plain muted woven linen-like clothing, warm fresh bronze and cool gray-green atmosphere. NOT cartoon, NOT vector, NOT glossy game art.\nConstraints: Historically cautious artistic reconstruction of Sanxingdui and ancient Shu, late second millennium BCE. No text, no watermark, no collage, no border, no modern objects, no aliens, no European gods, no Han/Tang tiled palaces, no armor fantasy. Do not use the four-bird circular Jinsha gold ornament. Fresh bronze is copper-gold with subtle casting irregularities, not archaeological green patina. Main detail above bottom 12 percent reserved for later subtitles.\n\nPrimary request: A solemn atmospheric reconstruction of an ancient Shu ceremonial gathering at Sanxingdui at dusk, with a bronze sacred tree and ritual jade zhang, historical cinematic scene.\nSubject: A ritual participant in plain woven robe raises ONE long flat green stone zhang blade with both hands at chest-to-face height; several participants stand attentively or bow slightly, natural believable fingers and quiet poses. No specific god visibly manifests. A Sanxingdui bronze tree with three tiers is secondary behind the gathering, bronze masks and several ivory tusks arranged on low earthen surfaces, small controlled fire with thin smoke. No human sacrifice, no frightening gore.\nComposition/framing: Mid-wide human scene, honest material detail and expressive solemn faces, clear visual hierarchy around jade gesture, foreground soil and soft background architecture. NOT kneeling emperor worship in later Chinese palace costume.\nLighting/mood: Last light of dusk, gentle fire warmth, softly luminous smoke, readable faces. Gesture, clothing, intentions and ritual order are artistic hypotheses, not established archaeological facts.\n竖屏重构要求：9:16，主体完整，场景为艺术想象，无字幕或文字。",
+      "kind": "imagination",
+      "sourceIds": [],
+      "duration": 9.88,
+      "image": "assets/images/sanxingdui-ritual-final.jpg",
+      "imageHash": "adba4dcbb981ff44c4dd6f7ce33e59508fad1fc97b5be5d854211aa98fe6173c",
+      "imageVersions": [],
+      "audioHash": "d3d4f24cc6e09fe5cc9e2489f2cd361bdcc52b442b18eff6465b760c7073241a",
+      "cues": [
+        {
+          "text": "我们想象人们举起礼器，把对丰收的盼望托付天地。",
+          "audio": "assets/audio/science-segment-3-3.mp3",
+          "duration": 4.597551
+        },
+        {
+          "text": "真正向谁祈求，怎样祈求？这些细节仍是谜。",
+          "audio": "assets/audio/science-segment-3-4.mp3",
+          "duration": 4.388571
+        }
+      ],
+      "fit": "cover",
+      "focusX": 50,
+      "focusY": 50,
+      "zoom": 1.045,
+      "imageSize": {
+        "width": 1672,
+        "height": 941
+      }
+    },
+    {
+      "id": "shot-10",
+      "title": "留下的谜题",
+      "narration": "器物留在地下，历史与传说，等待我们继续追寻。",
+      "prompt": "Use case: historical-scene\nAsset type: 16:9 full-screen keyframe for a historical documentary, no text.\nStyle/medium: Photorealistic historical cinema production design, highly detailed textures, atmospheric depth, restrained cinematic grain, believable scale, clear readable midtones. Consistent late Bronze Age Sichuan setting: earthen surfaces, timber and thatch, plain muted woven linen-like clothing, warm fresh bronze and cool gray-green atmosphere. NOT cartoon, NOT vector, NOT glossy game art.\nConstraints: Historically cautious artistic reconstruction of Sanxingdui and ancient Shu, late second millennium BCE. No text, no watermark, no collage, no border, no modern objects, no aliens, no European gods, no Han/Tang tiled palaces, no armor fantasy. Do not use the four-bird circular Jinsha gold ornament. Fresh bronze is copper-gold with subtle casting irregularities, not archaeological green patina. Main detail above bottom 12 percent reserved for later subtitles.\n\nPrimary request: A cinematic archaeological imagination of Sanxingdui bronze and ivory objects resting inside an earthen pit before being covered, no modern excavation tools or workers.\nSubject: Several broad angular bronze mask faces, fragments of bronze ritual objects and green jade blades low in the pit; large curved ivory tusks placed above portions of the objects. Realistic overlapping objects, material weight, irregular earth and dust. This refers only loosely to partial finds/layer relationships, not a diagram or precise photograph of Pit 8.\nComposition/framing: Close top-oblique view into the pit; avoid graphic cutaway soil layers, labels and arrows. Small soft particles in light beam, somber material detail. Show intact and fragmentary objects respectfully, no bodies.\nLighting/mood: The final warm ray of daylight crossing metal and ivory, deep but readable earth shadows, contemplative sense of time passing.\n竖屏重构要求：9:16，主体完整，场景为艺术想象，无字幕或文字。",
+      "kind": "imagination",
+      "sourceIds": [],
+      "duration": 4.43,
+      "image": "assets/images/sanxingdui-burial-final.jpg",
+      "imageHash": "778d4d67126df00282a67598d1259a5c3c8d79a9e067d786db9334bbbe48bf7b",
+      "imageVersions": [],
+      "audioHash": "10f2d8994090310b40f0fdc8d69403bf682dd840c68e42365f6eee0d194137dc",
+      "cues": [
+        {
+          "text": "器物留在地下，历史与传说，等待我们继续追寻。",
+          "audio": "assets/audio/science-segment-3-5.mp3",
+          "duration": 3.761633
+        }
+      ],
+      "fit": "contain",
+      "focusX": 50,
+      "focusY": 50,
+      "zoom": 1.045,
+      "imageSize": {
+        "width": 1672,
+        "height": 941
+      }
+    }
+  ],
+  "cover": "assets/covers/cover-imported.jpg",
+  "coverHash": "459e06a32f260baecd472a83f8a3c4387a03f7121c631e6cb332c87bdce622d2",
+  "ambience": "assets/audio/ambience-outdoor.mp3",
+  "outputs": [],
+  "coverVersions": [
+    "assets/covers/cover-imported.jpg"
+  ],
+  "status": "draft",
+  "message": "公开样例素材已导入，可直接预览并重新合成。",
+  "originalFormat": "16:9 / 72秒"
+}

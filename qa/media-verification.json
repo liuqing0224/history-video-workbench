@@ -1,0 +1,92 @@
+{
+  "output": {
+    "id": "1a988114-debf-40a4-8116-74fe054a7e8a",
+    "path": "outputs/film-1791619928124.mp4",
+    "createdAt": "2026-10-10T08:13:25.915Z",
+    "revision": 5,
+    "duration": 72.875,
+    "width": 1080,
+    "height": 1920
+  },
+  "duration": 72.875,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "sampleRate": "48000"
+    }
+  ],
+  "cover": {
+    "width": 1080,
+    "height": 1920,
+    "format": "jpeg"
+  },
+  "shots": [
+    {
+      "id": "shot-1",
+      "image": "assets/images/sanxingdui-city-final.jpg",
+      "cues": 2,
+      "fit": "cover"
+    },
+    {
+      "id": "shot-2",
+      "image": "assets/images/shot-2-1791619625258.png",
+      "cues": 2,
+      "fit": "cover"
+    },
+    {
+      "id": "shot-3",
+      "image": "assets/images/sanxingdui-river-final.jpg",
+      "cues": 2,
+      "fit": "contain"
+    },
+    {
+      "id": "shot-4",
+      "image": "assets/images/sanxingdui-tree-final.jpg",
+      "cues": 2,
+      "fit": "cover"
+    },
+    {
+      "id": "shot-5",
+      "image": "assets/images/sanxingdui-myth-sky-final.jpg",
+      "cues": 2,
+      "fit": "cover"
+    },
+    {
+      "id": "shot-6",
+      "image": "assets/images/sanxingdui-tree-final.jpg",
+      "cues": 1,
+      "fit": "cover"
+    },
+    {
+      "id": "shot-7",
+      "image": "assets/images/sanxingdui-workshop-final.jpg",
+      "cues": 1,
+      "fit": "cover"
+    },
+    {
+      "id": "shot-8",
+      "image": "assets/images/sanxingdui-procession-final.jpg",
+      "cues": 1,
+      "fit": "cover"
+    },
+    {
+      "id": "shot-9",
+      "image": "assets/images/sanxingdui-ritual-final.jpg",
+      "cues": 2,
+      "fit": "cover"
+    },
+    {
+      "id": "shot-10",
+      "image": "assets/images/sanxingdui-burial-final.jpg",
+      "cues": 1,
+      "fit": "contain"
+    }
+  ]
+}

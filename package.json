@@ -1,0 +1,38 @@
+{
+  "name": "history-video-workbench",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server/index.mjs",
+    "build": "tsc --noEmit && vite build",
+    "start": "NODE_ENV=production tsx server/index.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "import:sample": "python3 scripts/import_sample.py",
+    "check": "node scripts/check.mjs",
+    "format": "prettier --write src server shared video scripts tests vite.config.ts tsconfig.json package.json"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.534",
+    "@remotion/player": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "express": "^5.1.0",
+    "lucide-react": "^0.468.0",
+    "multer": "^2.0.2",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.534",
+    "sharp": "^0.34.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "^5.0.0",
+    "prettier": "^3.8.1",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.0"
+  }
+}
